@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    font-size: 2rem;  
+}
+.item:nth-child(1){
+    background-color: orange;
+   
+   }
+.item:nth-child(2){
+    background-color:green;
+}
+.item:nth-child(3){
+    background-color: violet;
+
+}
+.item:nth-child(4){
+    background-color: purple;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-gap: 2px;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
